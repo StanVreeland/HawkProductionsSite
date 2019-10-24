@@ -1,15 +1,21 @@
- h1 {
-  font-family: Arial; background-color: Gold; margin-left:-8px; margin-right:-8px; border-style:outset; border-color: gold
-}
+    * {
+        font-family:Arial;
+    }
+    .banner {
+        font-family: Arial; background-color: #b89912; margin-left:-8px; margin-right:-8px; border-color: #b89912; padding-left: 100px; padding-right: 100px  
+    }
     body {
         background-color:#2f3030;
     }
     nav {
         color:Gold;display:inline; font-size: 40px;
     }
-    #navdivider {
+    .navdivider {
         display:inline;color: white; font-size: 40px;
     }
     p {
         color:gold;
+    }
+    .logo {
+        padding-left:100px;
     }
