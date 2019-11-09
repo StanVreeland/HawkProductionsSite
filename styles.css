@@ -3,16 +3,20 @@
     }
 
     body {
-        background-color:#9b9e9c;
+        background-color:gray;
     }
     nav {
         color:Gold;display:inline; font-size: 35px;
     }
     
     p {
-        color:gold;
+        color:#e3ab12;
     }
 
-    .background {
+    .bckground {
         background-color:#9b9e9c;
+    }
+    
+    .nav-pill {
+        background-color:;
     }
