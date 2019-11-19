@@ -4,12 +4,14 @@
             <title>Digital Media and Hawk Productions | Woodland Regional High School</title>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel = "stylesheet"
-          type = "text/css"
-          href = "styles.css" />
         <script src="myScript.js"></script>
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- Custom CSS -->
+        <link rel = "stylesheet"
+          type = "text/css"
+          href = "styles.css" />
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -21,7 +23,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         </head>
         <body>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<div class="container">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
   <!-- Brand -->
   <a class="navbar-brand" href="index.html"><img src="https://serving.photos.photobox.com/2282915595d03a3273f35468a129e179369cf3f2d8e504f33fca867c66e06cb91e451f60.jpg"></a>
   
@@ -49,13 +52,14 @@
       </li>
     </ul>
   </div>
+</div>
 </nav>
 <span class="background">
 
 
 
 
-
+  <br> <br> <br>
 
             <div class="container mt-3 background">
         
@@ -71,13 +75,13 @@
   
   <!-- The slideshow -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active youtube-responsive-container">
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/WVf3WPLufTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item youtube-responsive-container">
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/qzm-O1gKmYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item youtube-responsive-container">
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/5xqKaID6iCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
@@ -90,16 +94,27 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+      <script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channel="WRHS TV" data-layout="default" data-theme="dark" data-count="hidden"></div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
 </div>
 <br>
-<div class="row background">
+<div class="row">
+  <div class="background">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <p class="font-weight-bold text-center gold-text">On this site, you can find information about Digital Media, Hawk Productions, and Studio 217. If you want to learn more, take a glance at the “About” page or the page dedicated to Studio 217.</p>
+  </div>
+
   <div class="col-sm-1"></div>
-  <div class="col-sm-10">
-    <p class="font-weight-bold text-center gold-text">On this site, you can find information about Digital Media, Hawk Productions, and Studio 217. If you want to learn more, take a glance at the “About” page or the page dedicated to Studio 217.</p>
-</div>
-  <div class="col-sm-1"></div>
-</div>
 </span>
+</div>
 
 
 
@@ -116,40 +131,40 @@
 
 
 
-<script>
-$(document).ready(function(){
-  // Activate the Carousel, but pause it from the start
-  $("#myCarousel").carousel("pause");
-        
-  // Click on the button to start sliding 
-  $("#myBtn").click(function(){
-    $("#myCarousel").carousel("cycle");
-  });
-
-  // Click on the button to stop sliding 
-  $("#myBtn2").click(function(){
-    $("#myCarousel").carousel("pause");
-  });
-    
-  // Enable Carousel Indicators
-  $(".item1").click(function(){
-    $("#myCarousel").carousel(0);
-  });
-  $(".item2").click(function(){
-    $("#myCarousel").carousel(1);
-  });
-  $(".item3").click(function(){
-    $("#myCarousel").carousel(2);
-  });
-    
-  // Enable Carousel Controls
-  $(".carousel-control-prev").click(function(){
-    $("#myCarousel").carousel("prev");
-  });
-  $(".carousel-control-next").click(function(){
-    $("#myCarousel").carousel("next");
-  });
-});
-</script>
+          <script>
+            $(document).ready(function(){
+              // Activate the Carousel, but pause it from the start
+              $("#myCarousel").carousel("pause");
+                    
+              // Click on the button to start sliding 
+              $("#myBtn").click(function(){
+                $("#myCarousel").carousel("cycle");
+              });
+            
+              // Click on the button to stop sliding 
+              $("#myBtn2").click(function(){
+                $("#myCarousel").carousel("pause");
+              });
+                
+              // Enable Carousel Indicators
+              $(".item1").click(function(){
+                $("#myCarousel").carousel(0);
+              });
+              $(".item2").click(function(){
+                $("#myCarousel").carousel(1);
+              });
+              $(".item3").click(function(){
+                $("#myCarousel").carousel(2);
+              });
+                
+              // Enable Carousel Controls
+              $(".carousel-control-prev").click(function(){
+                $("#myCarousel").carousel("prev");
+              });
+              $(".carousel-control-next").click(function(){
+                $("#myCarousel").carousel("next");
+              });
+            });
+          </script>
         </body>
     </html>
