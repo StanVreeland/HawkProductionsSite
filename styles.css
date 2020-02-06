@@ -1,58 +1,18 @@
-    * {
-        font-family:Arial;
-    }
-
-    body {
-        background-color:gray;
-    }
-    nav {
-        color:Gold;display:inline; font-size: 35px;
-    }
-    
-    p {
-        color:#e3ab12;
-    }
-
-    .bckground {
-        background-color:#9b9e9c;
-    }
-    
-    .nav-pill {
-        background-color:#d9c832;
-    }
-    
-    .youtube-responsive-container {
-        position:relative;
-        padding-bottom:56.25%;
-        padding-top:30px;
-        height:0;
-        overflow:hidden;
+.home-cover {
+    background-color: black;
+    color:white;
+    font-size:55px;
+    background-image: url("https://picsum.photos/1920/600");
 }
 
-.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
-        position:absolute;
-        top:0;
-        left:0;
-        width:99%;
-        height:100%;
-}
+@media only screen and (max-width: 959px) {
 
-.red {
-    background-color:blac
-}
+    .sidebars {
+        width:0%;
+    }
 
-.black {
-    background-color:re
-}
+}        
 
-h1 {
-    color:#b5ac4a;
-}
-
-.jumbotron {
-    background-color:black;
-}
-
-.navbar-custom {
-    background-color:#b5ac4a;
+.sidebars {
+    color:black;
 }
