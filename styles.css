@@ -1,18 +1,38 @@
+body {
+    background-color:black;
+}
+
+
 .home-cover {
     background-color: black;
-    color:white;
+    color:black;
     font-size:55px;
     background-image: url("https://picsum.photos/1920/600");
+    margin-bottom:5px;
 }
 
 @media only screen and (max-width: 959px) {
-
-    .sidebars {
-        width:0%;
+    .alumni-index {
+        width:100%;
+        margin:0px;
     }
-
 }        
 
 .sidebars {
     color:black;
+    width:0%;
 }
+
+.alumni-index {
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/800");
+    width:90%;
+    height:100%;
+    height: 100vh;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:center;
+    display:inline-block;
+}
+
