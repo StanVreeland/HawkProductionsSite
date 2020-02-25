@@ -1,5 +1,15 @@
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+
+.navbar {
+    min-height:0px !important;
+}
+
+.navbar-index-custom {
+    height: 60px;
+}
+
 body {
-    background-color:black;
+    background-color:white;
 }
 
 
@@ -9,26 +19,30 @@ body {
     font-size:55px;
     background-image: url("https://picsum.photos/1920/600");
     margin-bottom:5px;
+    height: 10%;
 }
 
 @media only screen and (max-width: 959px) {
     .alumni-index {
-        width:100%;
-        margin:0px;
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/800");
+    width:100%;
+    height:80%;
+    height: 100vh;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:center;
+    display:inline-block;
     }
 }        
-
-.sidebars {
-    color:black;
-    width:0%;
-}
 
 .alumni-index {
     background-color:black;
     color:black;
-    background-image: url("https://picsum.photos/1920/800");
+    background-image: url("https://picsum.photos/1920/918");
     width:90%;
-    height:100%;
+    height:80%;
     height: 100vh;
     margin-left:5%;
     margin-right:5%;
@@ -36,3 +50,15 @@ body {
     display:inline-block;
 }
 
+.chevrons {
+    padding-top: 65%;
+    font-size: 250%;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.description {
+    font-size: 20px;
+}
