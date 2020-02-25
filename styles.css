@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color:white;
+    background-color:black;
 }
 
 
@@ -51,8 +51,9 @@ body {
 }
 
 .chevrons {
-    padding-top: 65%;
+    padding-top: 57.5%;
     font-size: 250%;
+    color:white;
 }
 
 .title {
@@ -61,4 +62,5 @@ body {
 
 .description {
     font-size: 20px;
+    color:black;
 }
