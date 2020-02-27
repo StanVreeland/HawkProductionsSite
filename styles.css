@@ -12,14 +12,13 @@ body {
     background-color:black;
 }
 
-
 .home-cover {
     background-color: black;
     color:black;
     font-size:55px;
-    background-image: url("https://picsum.photos/1920/600");
+    background-image: url("https://picsum.photos/1920/350");
     margin-bottom:5px;
-    height: 10%;
+    min-height:0px !important;
 }
 
 @media only screen and (max-width: 959px) {
@@ -63,4 +62,21 @@ body {
 .description {
     font-size: 20px;
     color:black;
+}
+
+.top-home-page {
+    font-size: 55px;
+    text-align:center;
+    vertical-align:middle;
+    padding-bottom:10px;
+}
+
+.container-styles {
+    width:91.5%;
+    max-width:100%;
+}
+
+.container-styles-alumni {
+    width:100%;
+    max-width:105%;
 }
