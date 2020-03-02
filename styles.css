@@ -54,8 +54,7 @@ html {
     color:black;
     background-image: url("https://picsum.photos/1920/918");
     width:90%;
-    height:80%;
-    height: 100vh;
+    height:78vh;
     margin-left:5%;
     margin-right:5%;
     text-align:center;
@@ -63,7 +62,7 @@ html {
 }
 
 .chevrons {
-    margin-top: 37.5%;
+    margin-top: 25%;
     font-size: 250%;
     color:white;
 }
@@ -90,8 +89,33 @@ html {
 }
 
 .container-styles-alumni {
-    margin-left:0%;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:-1.05vh;
+    margin-right:-10vh;
+    width:100vw;
+    max-width:300%;
     display:inline-block;
-    width:100.75%;
-    max-width:150%;
+    text-align:center;
+}
+
+.container-styles-custom {
+    margin-top:0px;
+    margin-bottom:5px;
+    margin-left:-1.05vh;
+    margin-right:-10vh;
+    width:100vw;
+    max-width:300%;
+    display:inline-block;
+    text-align:center;
+}
+
+.other-sections-index {
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/918");
+    width:90vw;
+    height:88vh;
+    text-align:center;
+    display:inline-block;
 }
