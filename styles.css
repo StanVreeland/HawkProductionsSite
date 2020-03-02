@@ -10,6 +10,18 @@
 
 body {
     background-color:black;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+* {
+    box-sizing:inherit;
+}
+
+html {
+    margin:0px;
+    padding:0px;
 }
 
 .home-cover {
@@ -17,6 +29,7 @@ body {
     color:black;
     font-size:55px;
     background-image: url("https://picsum.photos/1920/350");
+    margin-top:5px;
     margin-bottom:5px;
     min-height:0px !important;
 }
@@ -50,7 +63,7 @@ body {
 }
 
 .chevrons {
-    padding-top: 57.5%;
+    margin-top: 37.5%;
     font-size: 250%;
     color:white;
 }
@@ -68,7 +81,7 @@ body {
     font-size: 55px;
     text-align:center;
     vertical-align:middle;
-    padding-bottom:10px;
+    margin-bottom:10px;
 }
 
 .container-styles {
@@ -77,6 +90,8 @@ body {
 }
 
 .container-styles-alumni {
-    width:100%;
-    max-width:105%;
+    margin-left:0%;
+    display:inline-block;
+    width:100.75%;
+    max-width:150%;
 }
