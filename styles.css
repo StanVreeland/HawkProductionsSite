@@ -1,0 +1,125 @@
+.navbar-nav > li > a {
+    padding-top:5px !important; 
+    padding-bottom:10px !important;
+}
+
+.navbar {
+    min-height:0px !important;
+}
+
+.navbar-index-custom {
+    height: 60px;
+}
+
+body {
+    background-color:black;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+* {
+    box-sizing:inherit;
+}
+
+html {
+    margin:0px;
+    padding:0px;
+}
+
+.home-cover {
+    background-color: black;
+    color:black;
+    font-size:55px;
+    background-image: url("https://picsum.photos/1920/1000");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:5px;
+    margin-bottom:5px;
+    min-height:0px !important;
+}
+
+@media only screen and (max-width: 959px) {
+    .alumni-index {
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/800");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:90%;
+    height:80%;
+    height: 100vh;
+    text-align:center;
+    display:inline-block;
+    }
+}        
+
+.alumni-index {
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/918");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:90%;
+    height:78vh;
+    margin-bottom:5px;
+    text-align:center;
+    display:inline-block;
+}
+
+.chevrons {
+    margin-top: 25%;
+    font-size: 250%;
+    color:white;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.description {
+    font-size: 20px;
+    color:black;
+}
+
+.top-home-page {
+    font-size: 55px;
+    text-align:center;
+    vertical-align:middle;
+    margin-bottom:5px;
+}
+
+.container-styles {
+    width:91.5%;
+    max-width:100%;
+}
+
+.container-styles-alumni {
+    margin-top:0px;
+    margin-bottom:5px;
+    width:100vw;
+    display:inline-block;
+    text-align:center;
+}
+
+.container-styles-custom {
+    margin-top:0px;
+    margin-bottom:5px;   
+    width:100vw;
+    height:100vh;
+    display:inline-block;
+    text-align:center;
+}
+
+.other-sections-index {
+    background-color:black;
+    color:black;
+    background-image: url("https://picsum.photos/1920/1080");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:90vw;
+    height:95vh;
+    margin-bottom:5px;
+    text-align:center;
+    display:inline-block;
+}
